@@ -1,0 +1,29 @@
+{
+    "name": "hnqca/router-php",
+    "description": "Uma biblioteca PHP leve e intuitiva para gerenciar rotas, oferecendo suporte a padrões MVC, middlewares, verbos RESTful, parâmetros de caminho e consulta.",
+    "keywords": [
+        "Routes",
+        "Router",
+        "Route",
+        "MVC",
+        "Path",
+        "Query",
+        "RESTful",
+        "API"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique Cacerez",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hnqca\\Router\\": "src"
+        }
+    }
+}
